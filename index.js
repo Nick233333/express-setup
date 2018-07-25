@@ -2,7 +2,7 @@ const express = require('express')
 const nunjucks = require('nunjucks')
 const path = require('path')
 const bodyParser = require('body-parser')
-const routers = require('./routers/routers')
+const routers = require('./routes/routes')
 const middlewares = require('./middlewares/index')
 const app = express()
 
